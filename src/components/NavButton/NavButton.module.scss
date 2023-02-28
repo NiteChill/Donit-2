@@ -1,0 +1,13 @@
+@import '../../assets/styles/variable';
+
+.hover:hover {
+  & div {
+    background: var(--surface-2);
+    & span {
+      color: var(--on-surface);
+    }
+  }
+  & p {
+    color: var(--on-surface);
+  }
+}
