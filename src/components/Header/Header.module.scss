@@ -1,6 +1,12 @@
+@import '../../assets/styles/variable';
+
 .header {
   background: url(../../assets/img/header.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.hover:hover {
+  background: var(--hover-primary);
 }
