@@ -886,10 +886,20 @@
   width: 28rem;
 }
 
+// max-width //
+
+.max-width-full {
+  max-width: 100%;
+}
+
 // height //
 
 .h-full {
   height: 100%;
+}
+
+.h-half {
+  height: 50%;
 }
 
 .h-fit-content {
@@ -922,6 +932,14 @@
 
 .h-70 {
   height: 7rem;
+}
+
+.h-170 {
+  height: 17rem;
+}
+
+.h-310 {
+  height: 31rem;
 }
 
 .h-350 {
@@ -986,4 +1004,22 @@
 
 .user-select-none {
   user-select: none;
+}
+
+// overflow //
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
