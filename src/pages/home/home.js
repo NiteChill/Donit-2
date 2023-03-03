@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <p className='fs-medium c-on-surface ff-primary-font fw-500 ml-24 mt-55'>About us</p>
       <div className={`h-310 ${styles.grid}`}>
         <Card
           img={purpleIllustration}
